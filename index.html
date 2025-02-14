@@ -14,10 +14,15 @@
 <body>
     <div class="container">
         <h1 style=" margin-bottom:50px;">The Experiment</h1>
-    <a href="https://buy.stripe.com/test_dR6dSO7utetV8q48ww" target="_blank">
-        <button style="padding: 10px 20px; background-color: #0070ba; color: white; border: none; border-radius: 5px; cursor: pointer;">
-            Pay with Stripe
-        </button>
+ <script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+<stripe-buy-button
+  buy-button-id="buy_btn_1QsMxPFhWpVypcHFfNuG8Rmt"
+  publishable-key="pk_test_51QsLzLFhWpVypcHFSCK0AyILV4SowcunbwaMhAneAv7NjB4XPO6zIXhljZ87EQ6XUTyr2IwkvzC8FAsDOe5AUYtR00JHaQeP8E"
+>
+</stripe-buy-button>
     </a>
 </div>
 
